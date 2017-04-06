@@ -1,0 +1,25 @@
+{
+  "name": "es6-env",
+  "version": "1.0.0",
+  "description": "es6简易环境搭建",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyanjie0327/es6-env.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huyanjie0327/es6-env/issues"
+  },
+  "homepage": "https://github.com/huyanjie0327/es6-env#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-latest": "^6.24.0",
+    "babel-preset-stage-2": "^6.22.0"
+  }
+}
