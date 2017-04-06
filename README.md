@@ -15,20 +15,15 @@ es6简易环境搭建
     }
     ```
     presets字段设定转码规则
-    ```
-    \# 最新转码规则
+    最新转码规则
     $ npm install --save-dev babel-preset-latest
 
-    \# react 转码规则
-    $ npm install --save-dev babel-preset-react
-
-    \# 不同阶段语法提案的转码规则（共有4个阶段），选装一个
+    不同阶段语法提案的转码规则（共有4个阶段），选装一个
     $ npm install --save-dev babel-preset-stage-0
     $ npm install --save-dev babel-preset-stage-1
     $ npm install --save-dev babel-preset-stage-2
     $ npm install --save-dev babel-preset-stage-3
     根据需要添加
-    ```
     ```
     {
         "presets": [
